@@ -1,0 +1,19 @@
+{
+  "generator-assemble": {
+    "projectName": "Timline Wiki",
+    "projectDesc": "Prototype for the timeline wiki application",
+    "authorLogin": "nodesman",
+    "installPlugin": true,
+    "author": {
+      "name": "Rajs",
+      "login": "assemble",
+      "email": "flarecore@gmail.com"
+    },
+    "plugins": [
+      "assemble-contrib-anchors",
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap",
+      "assemble-contrib-toc"
+    ]
+  }
+}

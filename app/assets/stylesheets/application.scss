@@ -1,0 +1,22 @@
+@import 'bootstrap';
+@import 'timeline';
+
+.home-page .container {
+  margin: 0 auto;
+  float: none;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container ul li {
+  list-style-type: none;
+  line-height: 35px;
+
+}
+
+.container ul {
+  padding: 0;
+
+}

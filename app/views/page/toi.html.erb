@@ -1,0 +1,21 @@
+<%= content_for :styles do %>
+    <%= stylesheet_link_tag "toi"  %>
+<% end %>
+
+<div class="timeline-container">
+  <div id="timeline-embed"></div>
+</div>
+<%= javascript_include_tag "toi" %>
+<script>
+  var timeline_min_url = '<%= asset_path 'lib/timeline/js/timeline-min.js' %>';
+  var data = {
+    timeline: {
+      headline: "Headline"
+    }
+  };
+  createStoryJS({
+    type:       'timeline',
+    source:     data,
+    embed_id:   'timeline-embed'
+  }, timeline_min_url);
+</script>
